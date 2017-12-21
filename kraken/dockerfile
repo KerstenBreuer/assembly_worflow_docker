@@ -1,7 +1,7 @@
+FROM ubuntu:16.04
+
 LABEL author="Kersten Breuer, Zeller Team, EMBL 2017" \
     maintainer="kersten-breuer@outlook.com"
-
-FROM ubuntu:16.04
 
 # Install essential unix packages and dependencies:
 RUN apt-get update -y --fix-missing
