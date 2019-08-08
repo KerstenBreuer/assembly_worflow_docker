@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+# All credits to Jonas Fleck.
+# Obtained from https://git.embl.de/fleck/ENA_downloader
+
 
 '''
 Command line tool for downloading raw reads form ENA
