@@ -3,6 +3,9 @@ FROM ubuntu:16.04
 LABEL author="Kersten Breuer, Zeller Team, EMBL 2017" \
     maintainer="kersten-breuer@outlook.com"
 
+# All credits to Jonas Fleck.
+# Obtained from https://git.embl.de/fleck/ENA_downloader
+
 # Install essential unix packages and dependencies:
 RUN apt-get update -y --fix-missing
 RUN apt-get install -y build-essential \
